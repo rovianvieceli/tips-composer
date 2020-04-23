@@ -1,0 +1,13 @@
+{
+    "name": "tips/tips-composer",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.1"
+    },
+    "license": "MIT",
+    "minimum-stability": "stable"
+}
