@@ -1,12 +1,12 @@
-### Introdução
+## Introdução
 Utilizado para exemplificar a utilização do composer, abaixo segue os passos para utilização.<br/> **Dica:** Sempre inicie o seu projeto pelo `composer`.
 
-### Requisitos instalados
+## Requisitos instalados
 * php
 * composer
 * git
 
-### Instalação
+## Instalação
 No seu terminal, va até o diretório `(/meuprojeto)` do projeto e siga como abaixo! Por hora iremos apenas fazer o 
 básico.
 `Apenas de [ENTER] nas opções para definir o padrão`
@@ -86,7 +86,7 @@ Generating autoload files
 root@be681a22876a:/var/www/html/meuprojeto#
 ````
 
-### Adicionando novas libs
+## Adicionando novas libs
 Acesse o site do [Packagist](https://packagist.org/) e pesquise pela lib desejada. Após em seu termina rode o comando `require`.
 ````bash
 root@00219f153aa7:/var/www/html/meuprojeto# composer require php-activerecord/php-activerecord
@@ -105,7 +105,7 @@ Use the `composer fund` command to find out more!
 root@00219f153aa7:/var/www/html/meuprojeto#
 ````
 
-### Finalizado
+## Finalizado
 Após os passos acima você vera uma estrutura assim no seu `root Folder`.
 
 * `vendor/` dependencies do composer.
@@ -122,7 +122,7 @@ drwxrwxrwx 1 root root 4096 Apr 17 14:53 ../
 drwxrwxrwx 1 root root    0 Apr 17 14:54 vendor/
 ````
 
-### Resumo / Comandos
+## Resumo / Comandos
 Composer lê o arquivo `composer.json` e instala todas as depêndencias necessárias de cada umas das libs informadas para 
 que sejam disponibilizada e fiquem funcionais.
 * `composer install` - Instalar todas as dependências na `vendor`.
@@ -154,7 +154,7 @@ que sejam disponibilizada e fiquem funcionais.
 }
 ````
 
-### Publicar
+## Publicar
 Apenas faça esses passos no seu diretório `www`.
 
 ### Construido com
@@ -164,14 +164,14 @@ Apenas faça esses passos no seu diretório `www`.
 * [Autoload](https://www.php-fig.org/) - Padrão de `PSR`
 * [MailTrap](https://mailtrap.io/) - Caixa de Email pra teste de envio
 
-### Contributing
+## Contributing
 N/A
 
-### Controle de Versões
+## Controle de Versões
 Utilizado [SemVer](http://semver.org/) para o controle das versões.
 
-### Autor
+## Autor
 * Rovian Vieceli - [GitHub](https://github.com/rovianvieceli).
 
-### Licença
+## Licença
 Este repositório está sobre a licença MIT - [LICENSE.md](LICENSE.md).
