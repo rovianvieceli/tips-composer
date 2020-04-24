@@ -159,12 +159,13 @@ Apenas faça esses passos no seu diretório `www`.
 
 ### Construido com
 * [Composer](https://getcomposer.org/) - Gerenciador de dependências.
+* [Packagist](https://packagist.org/) - Repositório de pacotes PHP
 * [PHP](https://php.net/) - Linguagem de uso.
 * [PHPMailer](https://github.com/PHPMailer/PHPMailer) - Lib de envio de email.
 * [Autoload](https://www.php-fig.org/) - Padrão de `PSR`
 * [MailTrap](https://mailtrap.io/) - Caixa de Email pra teste de envio
 
-## Contributing
+## Contribuições
 N/A
 
 ## Controle de Versões
