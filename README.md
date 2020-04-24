@@ -176,4 +176,4 @@ Utilizado [SemVer](http://semver.org/) para o controle das versões.
 * Rovian Vieceli - [GitHub](https://github.com/rovianvieceli).
 
 ## Licença
-Este repositório está sobre a licença MIT - [LICENSE.md](LICENSE.md).
+Este repositório está sobre a licença [MIT - LICENSE](LICENSE.md).
