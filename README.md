@@ -1,5 +1,5 @@
 ## Introdução
-Utilizado para exemplificar a utilização do composer, abaixo segue os passos para utilização.<br/> **Dica:** Sempre inicie o seu projeto pelo `composer`.
+Utilizado para exemplificar a utilização do composer, abaixo segue os passos para utilização. Este README não é para utilização deste repositório e sim para a criação de um Projeto novo. Para utilização deste repositório vá para a secção `Utilizando Este Repositótio`.<br/> **Dica:** Sempre inicie o seu projeto pelo `composer`. 
 
 ## Requisitos instalados
 * php
@@ -7,18 +7,18 @@ Utilizado para exemplificar a utilização do composer, abaixo segue os passos p
 * git
 
 ## Instalação
-No seu terminal, va até o diretório `(/meuprojeto)` do projeto e siga como abaixo! Por hora iremos apenas fazer o 
+No seu terminal, va até o diretório `(/tips-composer)` do projeto e siga como abaixo! Por hora iremos apenas fazer o 
 básico.
 `Apenas de [ENTER] nas opções para definir o padrão`
 
 ````bash
-root@be681a22876a:/var/www/html/meuprojeto# composer init
+root@be681a22876a:/var/www/html/tips-composer# composer init
 
   Welcome to the Composer config generator
 
 This command will guide you through creating your composer.json config.
 
-Package name (<vendor>/<name>) [root/meuprojeto]: [ENTER]
+Package name (<vendor>/<name>) [root/tips-composer]: [ENTER]
 
 Description []: [ENTER]
 
@@ -61,7 +61,7 @@ Search for a package: [ENTER]
 Would you like to define your dev dependencies (require-dev) interactively [yes]? no
 
 {
-    "name": "root/meuprojeto",
+    "name": "root/tips-composer",
     "require": {
         "phpmailer/phpmailer": "^6.1"
     }
@@ -83,13 +83,13 @@ phpmailer/phpmailer suggests installing symfony/polyfill-mbstring (To support UT
 Writing lock file
 Generating autoload files
 
-root@be681a22876a:/var/www/html/meuprojeto#
+root@be681a22876a:/var/www/html/tips-composer#
 ````
 
 ## Adicionando novas libs
 Acesse o site do [Packagist](https://packagist.org/) e pesquise pela lib desejada. Após em seu termina rode o comando `require`.
 ````bash
-root@00219f153aa7:/var/www/html/meuprojeto# composer require php-activerecord/php-activerecord
+root@00219f153aa7:/var/www/html/tips-composer# composer require php-activerecord/php-activerecord
 
 Using version ^1.2 for php-activerecord/php-activerecord
 ./composer.json has been updated
@@ -102,7 +102,7 @@ Generating autoload files
 1 package you are using is looking for funding.
 Use the `composer fund` command to find out more!
 
-root@00219f153aa7:/var/www/html/meuprojeto#
+root@00219f153aa7:/var/www/html/tips-composer#
 ````
 
 ## Finalizado
@@ -113,7 +113,7 @@ Após os passos acima você vera uma estrutura assim no seu `root Folder`.
 * `composer.lock` arquivo gerado automaticamente para garantir a versão exata da dependência.
 
 ````bash
-root@be681a22876a:/var/www/html/meuprojeto#
+root@be681a22876a:/var/www/html/tips-composer#
 total 0
 drwxrwxrwx 1 root root    0 Apr 17 14:54 ./
 drwxrwxrwx 1 root root 4096 Apr 17 14:53 ../
@@ -135,7 +135,7 @@ que sejam disponibilizada e fiquem funcionais.
 ## Exemplo composer.json
 ````composer
 {
-    "name": "root/meuprojeto",
+    "name": "tips/tips-composer",
     "minimum-stability": "stable",
     "require": {
         "phpmailer/phpmailer": "^6.1",
@@ -168,6 +168,19 @@ Apenas faça esses passos no seu diretório `www`.
 ## Contribuições
 Qualquer correção ou sugestão sinta-se a vontade de sugerir
 * N/A
+
+## Utilizando Este Repositótio
+* Vá para sua `www` e clone este repositório.
+* Acesse essa pasta onde foi clonado `www/tips-composer/` e rode o `composer install`.
+* Va no arquivo `Mail.php` em `app/src`. Então altere os dados de conexão da conta de email. 
+````php
+$mail->Host = 'smtp.mailtrap.io';
+$mail->Username = 'c31ea72524bfe2';
+$mail->Password = 'e2fba16fd20745';
+$mail->Port = 587;
+````
+* Acesse acesse em seu browser http://localhost/tips-composer/public
+* Verifique a caixa de eamil definida e pronto estará lá o email.
 
 ## Controle de Versões
 Utilizado [SemVer](http://semver.org/) para o controle das versões.
