@@ -166,7 +166,8 @@ Apenas faça esses passos no seu diretório `www`.
 * [MailTrap](https://mailtrap.io/) - Caixa de Email pra teste de envio
 
 ## Contribuições
-N/A
+Qualquer correção ou sugestão sinta-se a vontade de sugerir
+* N/A
 
 ## Controle de Versões
 Utilizado [SemVer](http://semver.org/) para o controle das versões.
